@@ -17,7 +17,7 @@
 const heading = document.getElementById("heading");
 const textInput = document.getElementById("textInput");
 const btn = document.getElementById("btn");
-const listFruits = document.getElementById("listFruits");
+const listFruits = document.getElementById("listGroup");
 
 // console.log(listFruits.innerHTML);
 // console.log(listFruits.innerText);
