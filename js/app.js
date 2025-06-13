@@ -14,10 +14,10 @@
 // console.log(document);
 
 // select elements
-const heading = document.getElementById("heading");
-const textInput = document.getElementById("textInput");
-const btn = document.getElementById("btn");
-const listFruits = document.getElementById("listGroup");
+// const heading = document.getElementById("heading");
+// const textInput = document.getElementById("textInput");
+// const btn = document.getElementById("btn");
+// const listFruits = document.getElementById("listGroup");
 
 // console.log(listFruits.innerHTML);
 // console.log(listFruits.innerText);
@@ -37,4 +37,28 @@ const listFruits = document.getElementById("listGroup");
 
 // btn.onclick = changeTitle;
 // btn.addEventListener("click", changeTitle);
+
+// const paragraphs=document.getElementsByTagName("p");
+// const lists=document.getElementsByClassName("list")
+// console.log(paragraphs);
+// console.log(paragraphs[2]);
+// console.log(lists);
+// console.log(lists[1].innerText);
+// console.log(lists[2].innerHTML);
+// const paragraphs=document.querySelectorAll("p");
+// const lists=document.querySelectorAll(".list");
+const heading=document.querySelector("#heading")
+
+console.log(heading);
+console.log(heading.className);
+console.log(heading.classList);
+console.log(heading.id);
+console.log(heading.style);
+console.log(heading.style.textAlign);
+console.log(heading.style.color);
+
+
+// console.log(lists);
+// console.log(lists[1].innerHTML);
+// console.log(lists[2].innerHTML);
 
