@@ -5,21 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Area Calculator</h1>
-        <p style="display:inline-block; width: 250px;">Result: <span id="result"></span></p>
-        <button id="storeBtn">Store</button>
-        <button id="clearBtn">Clear</button>
-        <div>
-            <input type="number" id="width" placeholder="Width">
-            <input type="number" id="breadth" placeholder="Breadth">
-            <button id="calcBtn">Calculate</button>
+        <h1 class="heading">Area Calculator</h1>
+        <p class="result">Result: <span id="result"></span></p>
+        <button id="storeBtn" class="btn">Store</button>
+        <button id="clearBtn" class="btn">Clear</button>
+        <div class="container-box">
+            <div class="input-box">
+                <input type="number" id="width" placeholder="Width">
+                <input type="number" id="breadth" placeholder="Breadth">
+            </div>
+            <button class="calcBtn" id="calcBtn">Calculate</button>
         </div>
-        <h2>Stored Areas</h2>
-        <ul id="recordList">
+        <h2 class="header">Stored Areas</h2>
+        <ul id="recordList" class="recordList">
             <li>20 ft * 60 ft = 1200 sqft</li>
         </ul>
 

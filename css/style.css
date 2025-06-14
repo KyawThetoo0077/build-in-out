@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+.container{
+
+};
+.container .heading{
+    color: whitesmoke;
+};
+.result{
+
+};
+.btn{
+
+};
+.input-box{
+
+};
+.calcBtn{
+
+};
+.header{
+    color: aqua; important:  !important;
+};
+.recordList{};
+
+
