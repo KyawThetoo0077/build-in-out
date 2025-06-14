@@ -57,7 +57,6 @@ console.log(heading.style);
 console.log(heading.style.textAlign);
 console.log(heading.style.color);
 
-
 // console.log(lists);
 // console.log(lists[1].innerHTML);
 // console.log(lists[2].innerHTML);
