@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+<h1 id="heading">Hello</h1>
+<button id="headingLarger">+</button>
+<script>
+  const heading = document.getElementById('heading');
+  const headingLarger = document.getElementById('headingLarger');
+  heading.style.fontSize = heading.style.fontSize || '16px';
+  headingLarger.onclick = () => {
+    const current = parseInt(heading.style.fontSize) || 16;
+    heading.style.fontSize = `${current + 5}px`;
+  };
+</script>
 </body>
 </html>

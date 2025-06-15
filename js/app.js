@@ -47,15 +47,31 @@
 // console.log(lists[2].innerHTML);
 // const paragraphs=document.querySelectorAll("p");
 // const lists=document.querySelectorAll(".list");
-const heading=document.querySelector("#heading")
+const heading = document.querySelector("#heading");
+const btn = document.querySelector("#btn");
+const headingLarger = document.querySelector("#headingLarger");
+const headingSmaller = document.querySelector("#headingSmaller")
 
-console.log(heading);
-console.log(heading.className);
-console.log(heading.classList);
-console.log(heading.id);
-console.log(heading.style);
-console.log(heading.style.textAlign);
-console.log(heading.style.color);
+btn.onclick = () => {
+    heading.style.color = "white";
+    heading.style.backgroundColor = "black";
+};
+heading.style.fontSize=heading.style.fontSize||'32px';
+headingLarger.onclick = () => {
+    const current = parseInt(heading.style.fontSize);
+    heading.style.fontSize = `${current + 5}px`;
+};
+headingSmaller.onclick = () => {
+    const current = parseInt(heading.style.fontSize);
+    heading.style.fontSize = `${current - 5}px`;
+};
+// console.log(heading);
+// console.log(heading.className);
+// console.log(heading.classList);
+// console.log(heading.id);
+// console.log(heading.style);
+// console.log(heading.style.textAlign);
+// console.log(heading.style.color);
 
 // console.log(lists);
 // console.log(lists[1].innerHTML);

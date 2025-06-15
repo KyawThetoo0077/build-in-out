@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="border-b-2 border-b-black py-5 fixed z-50 w-full bg-white right-0">
+        <div class="w-[80%] mx-auto z-50">
+            <div class="flex justify-between">
+                <h1 class="text-3xl font-bold font-serif">logo.</h1>
+                <button id="controlNav">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-9 stroke-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section
+        class="w-[300px] bg-white border-l-2 border-l-black h-screen pt-20 fixed z-40 right-0 translate-x-full duration-200"
+        id="sideBar">
+        <nav class="flex flex-col">
+            <a href="#" class="font-serif text-xl hover:bg-gray-200 p-5">Home</a>
+            <a href="" class="font-serif text-xl hover:bg-gray-200 p-5">About</a>
+            <a href="" class="font-serif text-xl hover:bg-gray-200 p-5">Servieces</a>
+        </nav>
+    </section>
+    <div class="bg-black h-20"></div>
+    <section class="w-[80%] mx-auto">
+        <h3 class="font-bold font-serif text-xl mt-5">
+            Select Your Skills(<span id="skillCount">0</span>)
+        </h3>
+        <ul class="flex gap-3 mt-3">
+            <li class="list border border-black px-4 py-1">HTML</li>
+            <li class="list border border-black px-4 py-1">CSS</li>
+            <li class="list border border-black px-4 py-1">Js</li>
+            <li class="list border border-black px-4 py-1">Php</li>
+            <li class="list border border-black px-4 py-1">Python</li>
+            <li class="list border border-black px-4 py-1">go</li>
+        </ul>
+    </section>
+    <section class="w-[80%] mx-auto">
+        <h3 class="font-bold font-serif text-xl mt-5">Your Link</h3>
+         <div class="flex gap-3 mt-3">
+            <a href="https://google.com" class="link border border-black px-4 py-1">google</a>
+            <a href="https://youtube.com" class="link border border-black px-4 py-1">Youtube</a>
+        <input id="fileInput" type="file" class="link border border-black px-2" multiple>
+        </div>
+    </section>
+    <script src="./js/nav.js"></script>
+</body>
+
+</html>
